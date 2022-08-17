@@ -1,0 +1,5 @@
+env: default
+
+logging:
+  level:
+    com.demo: DEBUG

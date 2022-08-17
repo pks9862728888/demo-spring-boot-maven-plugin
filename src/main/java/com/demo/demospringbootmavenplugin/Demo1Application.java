@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
 /**
- * mvn com.demo:demo-spring-boot-maven-plugin:0.1.0:demo1-cmd
+ * mvn com.demo:demo-spring-boot-maven-plugin:demo1-cmd -Dspring.profiles.active=dev
  */
 @Mojo(name = "demo1-cmd", defaultPhase = LifecyclePhase.INTEGRATION_TEST)
 @SpringBootApplication
